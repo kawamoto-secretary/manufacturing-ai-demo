@@ -1,0 +1,19 @@
+# APIキー・環境変数
+.env
+.env.*
+*.env
+
+# Streamlit ローカル設定（Cloudのsecretsとは別物）
+.streamlit/secrets.toml
+
+# 生成された加工指示書（出力ファイル）
+*_加工指示書.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
